@@ -7,8 +7,8 @@ if (IN_BROWSER) {
     var browser_supported = !isSafari;
 }
 if (IN_BROWSER && browser_supported) {
-    var glfx = require('../vendor/glfx.optim')
-    var particlesJS = require('../vendor/particles.js')
+    //var glfx = require('../vendor/glfx.optim')
+    var particlesJS = require('../vendors/particles.js')
 }
 
 class Header extends React.Component {
