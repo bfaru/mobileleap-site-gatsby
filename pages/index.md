@@ -1,4 +1,4 @@
 ---
-title: Hi people
+title: MobileLeap Labs
 ---
-Welcome to your new Gatsby site.
+Where mobile innovation takes place
