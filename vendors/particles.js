@@ -1418,7 +1418,7 @@ Object.deepExtend = function(destination, source) {
         if (source[property] && source[property].constructor &&
             source[property].constructor === Object) {
             destination[property] = destination[property] || {};
-            arguments.callee(destination[property], source[property]);
+            Object.deepExtend(destination[property], source[property]);
         } else {
             destination[property] = source[property];
         }
@@ -1475,7 +1475,9 @@ function isInArray(value, array) {
 window.pJSDom = [];
 
 window.particlesJS = function(tag_id, params){
-
+    if (!document) {
+        return;
+    }
     //console.log(params);
 
     /* no string id? so it's object params, and set the id with default id */
@@ -1538,6 +1540,6 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
     };
     xhr.send();
 
-};/**
- * Created by bryangarces on 2/28/16.
- */
+};
+
+module.exports = window.particlesJS;

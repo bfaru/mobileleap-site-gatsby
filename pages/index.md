@@ -1,8 +1,10 @@
 ---
 path: /
 ---
-## Meet Graphene
+## WE ARE MOBILELEAP
 
-Graphene is a Python library for building GraphQL schemas/types fast and easily.
+We love being on the cutting edge of everything mobile.
 
-**But, what is GraphQL?** A GraphQL query is a string interpreted by a server that returns data in a specified format. We believe *GraphQL* is the next big thing after peanut butter and *REST*.
+Like it or not, the way we interact and do business is changing rapidly, and those who don’t adapt will be left behind. One of the trends driving change is the rapid pace of technology innovation, along with a growing preference in the world for access to the latest mobile technology.
+
+**Mobileleap** is guided by its vison of building solutions that provide more power, capability and usability into mobile devices.

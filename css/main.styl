@@ -38,8 +38,9 @@ html, body
   clearfix()
   position relative
   text-align center
-  background: #DB594C;
-  background-image: radial-gradient(95% 101%, #E46643 5%, rgba(226,91,72,0.00) 100%)
+  background: #00c78c;
+  //background: #16181c;
+  //background-image: radial-gradient(95% 101%, #00c78c 5%, rgba(226,91,72,0.00) 100%)
   .logo
     width 42px
     height @width
@@ -60,19 +61,19 @@ html, body
     display inline-block
     margin 0 auto
     font-size 13px
-    color #FFFFFF
+    color #F45A10
     padding 0 18px
     text-transform uppercase
     font-weight 600
     line-height 15px
-    border 1px solid #FFFFFF
+    border 1px solid #F45A10
     border-radius 2px
     padding 12px 18px
     z-index 111
     position relative
     &:hover
-      background white
-      color #E05B49
+      background #F45A10
+      color #ffffff
       text-decoration none
 
 .header-wrapper
@@ -141,11 +142,11 @@ html, body
 
 .header-logo
   font-family 'Raleway'
-  font-size 22px
-  color #FFFFFF
+  font-size 24px
+  color #ffffff
   float left
-  font-weight 500
-  text-transform uppercase
+  font-weight 900
+  //text-transform uppercase
   text-decoration none
 
 .header-nav
@@ -208,7 +209,7 @@ html, body
 
 .particles-js-canvas-el
   display block
-  opacity 0
+  //opacity 0
   position absolute
 
 .starwars-example-wrapper
@@ -248,39 +249,39 @@ html, body
   +below(600px)
     top -70px
 
-.improve-document-link
-  position fixed
-  right 0
-  bottom 70px
-  transform-origin 100% 100%
-  background: #999;
-  border: 1px solid #919191;
-  border-radius: 3px 3px 0 0;
-  border-bottom 0
-  padding 9px 12px 12px 34px
-  transform: rotate(270deg) translateX(100%) translateY(3px);
-  font-size: 11px;
-  font-weight: 500;
-  text-transform uppercase
-  color: #FFFFFF;
-  letter-spacing: 0.3px;
-  line-height: 11px;
-  transition all .2s ease-in-out
-  &:before
-    content: ''
-    display block
-    position absolute
-    left 10px
-    top 8px
-    height 16px
-    width 16px
-    image './images/edit.png' 16px 16px
-  &:hover
-    transform: rotate(270deg) translateX(100%)
-    background #666
-    border-color #555
-  +below(600px)
-    display none
+//.improve-document-link
+//  position fixed
+//  right 0
+//  bottom 70px
+//  transform-origin 100% 100%
+//  background: #999;
+//  border: 1px solid #919191;
+//  border-radius: 3px 3px 0 0;
+//  border-bottom 0
+//  padding 9px 12px 12px 34px
+//  transform: rotate(270deg) translateX(100%) translateY(3px);
+//  font-size: 11px;
+//  font-weight: 500;
+//  text-transform uppercase
+//  color: #FFFFFF;
+//  letter-spacing: 0.3px;
+//  line-height: 11px;
+//  transition all .2s ease-in-out
+//  &:before
+//    content: ''
+//    display block
+//    position absolute
+//    left 10px
+//    top 8px
+//    height 16px
+//    width 16px
+//    image './images/edit.png' 16px 16px
+//  &:hover
+//    transform: rotate(270deg) translateX(100%)
+//    background #666
+//    border-color #555
+//  +below(600px)
+//    display none
 
 $title
   display block
@@ -290,7 +291,7 @@ $title
   padding-top .3em
   margin-bottom .5em
   padding-bottom .5em
-  color #4A4A4A
+  color #F45A10
 
 .markdown
   .wrapper

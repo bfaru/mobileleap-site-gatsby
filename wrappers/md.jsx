@@ -35,7 +35,6 @@ class Markdown extends React.Component {
 </div>:null}
 <div className="markdown">
     <div className={!this.props.docs?"wrapper":null} dangerouslySetInnerHTML={{__html: post.body}}/>
-<a href={documentUrl} className="improve-document-link">Edit page</a>
 </div>
 </div>
 </DocumentTitle>

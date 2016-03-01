@@ -21,27 +21,25 @@ class Template extends React.Component {
         return (
             <div>
                 <Menu width={200} right>
-                    <span><Link to="/playground/" className={path.indexOf('/playground')==0?"active":null}>Try it out</Link></span>
-                    <span><Link to="/docs/quickstart/" className={path.indexOf('/docs')==0?"active":null}>Docs</Link></span>
-                    <span><Link to="/community/">Community</Link></span>
-                    <a href="https://github.com/graphql-python/graphene/">Github</a>
+                    <a href="mailto:bryances@me.com">Contact</a>
                 </Menu>
                 <header className="header">
                     <div className="header-wrapper">
                         <Link className="header-logo" to="/">
-                            <Icon src={logo} />
                             mobileleap
                         </Link>
                         <nav className="header-nav">
+                            <a href="mailto:bryances@me.com">Contact</a>
                         </nav>
                     </div>
                     {isIndex?
                     <div className="header-extended">
                         <h1>
-                            GraphQL in Python<br />
-                            made <strong>simple</strong>
+                             <strong>We Build Successful and Innovative</strong> <br />
+                            <strong>Mobile Solutions</strong>
                         </h1>
-                        <Header />
+                        <a className="get-started" href="mailto:bryances@me.com">Contact Us</a>
+                    <Header />
                     </div>:null}
                 </header>
                 <Container
@@ -50,7 +48,7 @@ class Template extends React.Component {
                         padding: `${rhythm(1)} ${rhythm(1/2)}`,
                         paddingTop: 0,
                     }}
-                >
+                    >
                     {this.props.children}
                 </Container>
             </div>

@@ -7,7 +7,7 @@ if (IN_BROWSER) {
     var browser_supported = !isSafari;
 }
 if (IN_BROWSER && browser_supported) {
-    //var glfx = require('../vendor/glfx.optim')
+    var glfx = require('../vendors/glfx.optim')
     var particlesJS = require('../vendors/particles.js')
 }
 
@@ -34,14 +34,14 @@ class Header extends React.Component {
         new particlesJS('header-background', {
             "particles": {
                 "number": {
-                    "value": 40,
+                    "value": 150,
                     "density": {
                         "enable": true,
                         "value_area": 800
                     }
                 },
                 "color": {
-                    "value": "#ffffff"
+                    "value": "#F45A10"
                 },
                 "shape": {
                     "type": "circle",
@@ -64,11 +64,11 @@ class Header extends React.Component {
                     }
                 },
                 "size": {
-                    "value": 2.2,
-                    "random": false,
+                    "value": 2.5,
+                    "random": true,
                     "anim": {
                         "enable": false,
-                        "speed": .2,
+                        "speed": .1,
                         "size_min": 2.44,
                         "sync": true
                     }
@@ -78,18 +78,18 @@ class Header extends React.Component {
                     "distance": 240,
                     "color": "#ffffff",
                     "opacity": .2,
-                    "width": 3
+                    "width":.3
                 },
                 "move": {
                     "enable": true,
-                    "speed": 1.1,
-                    "direction": "none",
+                    "speed": .4,
+                    "direction": "move",
                     "random": true,
                     "straight": false,
-                    "out_mode": "bounce",
+                    "out_mode": "out",
                     "bounce": false,
                     "attract": {
-                        "enable": false,
+                        "enable": true,
                         "rotateX": 600,
                         "rotateY": 600
                     }
