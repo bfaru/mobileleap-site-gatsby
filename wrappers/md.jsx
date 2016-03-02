@@ -29,7 +29,7 @@ class Markdown extends React.Component {
     var documentUrl = `${DOCS_BASEURL}${pagePath}`;
     var showTitle = post.title && !this.props.docs;
     return (
-        <DocumentTitle title="Playground - Graphene"><div>
+        <DocumentTitle title="Mobile Development - MobileLeap Labs"><div>
 {showTitle?<div className="page-title">
     <h1>{post.title}</h1>
 </div>:null}
