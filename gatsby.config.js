@@ -35,10 +35,7 @@ module.exports = function(config, env) {
             alias: {
                 'original-react': path.join(__dirname, "node_modules", "react"),
                 'react/lib': path.join(__dirname, "node_modules", "react", "lib")
-                'react': path.join(__dirname, 'patched-react.js'),
-                'pypyjs': '../playground/graphene-js/pypyjs',
-                'playground-page': (env != "static")?'../playground/page':'../pages/_empty',
-                'playground-wrapper': (env == "develop")?'../playground/page':'../playground/wrapper',
+
             },
             modulesDirectories: ['./']
         }

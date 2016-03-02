@@ -34,14 +34,14 @@ class Header extends React.Component {
         new particlesJS('header-background', {
             "particles": {
                 "number": {
-                    "value": 150,
+                    "value": 45,
                     "density": {
                         "enable": true,
                         "value_area": 800
                     }
                 },
                 "color": {
-                    "value": "#F45A10"
+                    "value": "#ffffff"
                 },
                 "shape": {
                     "type": "circle",
@@ -50,7 +50,7 @@ class Header extends React.Component {
                         "color": "#000000"
                     },
                     "polygon": {
-                        "nb_sides": 8
+                        "nb_sides": 7
                     }
                 },
                 "opacity": {
@@ -64,12 +64,12 @@ class Header extends React.Component {
                     }
                 },
                 "size": {
-                    "value": 2.5,
-                    "random": true,
+                    "value": 5,
+                    "random": false,
                     "anim": {
                         "enable": false,
-                        "speed": .1,
-                        "size_min": 2.44,
+                        "speed": .2,
+                        "size_min": 1.9,
                         "sync": true
                     }
                 },
@@ -78,20 +78,20 @@ class Header extends React.Component {
                     "distance": 240,
                     "color": "#ffffff",
                     "opacity": .2,
-                    "width":.3
+                    "width": 1
                 },
                 "move": {
                     "enable": true,
-                    "speed": .4,
-                    "direction": "move",
-                    "random": true,
+                    "speed": .8,
+                    "direction": "none",
+                    "random": false,
                     "straight": false,
                     "out_mode": "out",
                     "bounce": false,
                     "attract": {
-                        "enable": true,
+                        "enable": false,
                         "rotateX": 600,
-                        "rotateY": 600
+                        "rotateY": 1200
                     }
                 }
             },
@@ -100,26 +100,26 @@ class Header extends React.Component {
                 "events": {
                     "onhover": {
                         "enable": true,
-                        "mode": "repulse"
+                        "mode": "grab"
                     },
                     "onclick": {
                         "enable": true,
-                        "mode": "repulse"
+                        "mode": "push"
                     },
                     "resize": true
                 },
                 "modes": {
                     "grab": {
-                        "distance": 400,
+                        "distance": 120,
                         "line_linked": {
                             "opacity": 1
                         }
                     },
                     "bubble": {
                         "distance": 250,
-                        "size": 0,
+                        "size": 40,
                         "duration": 2,
-                        "opacity": 0,
+                        "opacity": 8,
                         "speed": 3
                     },
                     "repulse": {

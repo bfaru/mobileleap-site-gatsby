@@ -26,7 +26,7 @@ class Template extends React.Component {
                 <header className="header">
                     <div className="header-wrapper">
                         <Link className="header-logo" to="/">
-                            mobileleap
+                            mobileleap labs<br />
                         </Link>
                         <nav className="header-nav">
                             <a href="mailto:bryances@me.com">Contact</a>
@@ -35,7 +35,7 @@ class Template extends React.Component {
                     {isIndex?
                     <div className="header-extended">
                         <h1>
-                             <strong>We Build Successful and Innovative</strong> <br />
+                             <strong>We Create Innovative </strong>
                             <strong>Mobile Solutions</strong>
                         </h1>
                         <a className="get-started" href="mailto:bryances@me.com">Contact Us</a>

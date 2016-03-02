@@ -1,10 +1,10 @@
 ---
 path: /
 ---
-## WE ARE MOBILELEAP
+## We are MobileLeap Labs
 
-We love being on the cutting edge of everything mobile.
+Guided by an always changing mobile landscape, lead developer Bryan Garces created **mobileleap labs** with the mission of creating cutting edge mobile solutions that are functional, innovative and make use of the latest mobile technologies and capabilities.
 
-Like it or not, the way we interact and do business is changing rapidly, and those who don’t adapt will be left behind. One of the trends driving change is the rapid pace of technology innovation, along with a growing preference in the world for access to the latest mobile technology.
+Our time is very valuable and we want to make a difference. That's why our team of developers handpick each project that we work on. Please contact us about your at info@mobileleaplabs.com.
 
-**Mobileleap** is guided by its vison of building solutions that provide more power, capability and usability into mobile devices.
+
